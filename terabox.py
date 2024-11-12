@@ -56,7 +56,7 @@ async def start_command(client, message):
     join_button = InlineKeyboardButton("ᴊᴏɪɴ ❤️🚀", url="https://t.me/zooistore")
     developer_button = InlineKeyboardButton("ᴅᴇᴠᴇʟᴏᴘᴇʀ ⚡️", url="https://t.me/prndevika_bot")
     reply_markup = InlineKeyboardMarkup([[join_button, developer_button]])
-    video_file_id = "/app/Jet-Mirror.mp4"
+    video_file_id = "/app/IMG_20241112_065101_717.jpg"
     if os.path.exists(video_file_id):
         await client.send_video(
             chat_id=message.chat.id,
